@@ -4,13 +4,26 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
+/**
+ * Class for testing class ShowMessageTest
+ * 
+ * @version 11.10.2016
+ * @author Yushin Roman
+ *
+ */
 public class ShowMessageTest {
 
+	/**
+	 * method for test method showMessage in class ShowMessage
+	 */
 	@Test
 	public final void testShowMessage() {
 		new ShowMessage().showMessage();
 	}
 	
+	/**
+	 * method for test method createMessage in class ShowMessage
+	 */
 	@Test
 	public final void testCreateMessage () {
 		

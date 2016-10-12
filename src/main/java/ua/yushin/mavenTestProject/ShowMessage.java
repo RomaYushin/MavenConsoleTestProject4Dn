@@ -7,13 +7,38 @@ import java.util.ResourceBundle;
 
 import org.apache.log4j.Logger;
 
+/**
+ * Shows specified message in console
+ * 
+ * @version 11.10.2016
+ * @author Yushin Roman
+ *
+ */
 public class ShowMessage {
 	
+	/**
+	 * Initialize LOG variable for logging for this class
+	 */
 	private static final Logger LOG = Logger.getLogger(ShowMessage.class);
+	
+	/**
+	 * Initialize default Locale for this OS
+	 */
 	private Locale locale = Locale.getDefault();
+	
+	/**
+	 * Initialize Englsh Locale
+	 */
 	//private Locale locale = Locale.ENGLISH;
+	
+	/**
+	 * Download files .properties depends on locale
+	 */
 	private ResourceBundle rb = ResourceBundle.getBundle("message_resources", locale);
 
+	/**
+	 * show specified message in console
+	 */
 	public void showMessage() {
 
 		String message = createMessage();
@@ -21,6 +46,11 @@ public class ShowMessage {
 
 	}
 
+	/**
+	 * create message depends on time of day
+	 * 
+	 * @return	message depends on time of day
+	 */
 	public String createMessage() {
 
 		String message = null;
