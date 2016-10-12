@@ -2,3 +2,11 @@
 2016-10-12 07:39 [DEBUG]               ShowMessage:    59 - time is: 07:39:28
 2016-10-12 07:39 [ INFO]               ShowMessage:    99 - messsage "Доброе утро, мир!" was created
 2016-10-12 07:39 [ INFO]                      Main:    29 - Finish running app
+2016-10-12 08:04 [ INFO]                      Main:    27 - Start running app
+2016-10-12 08:04 [DEBUG]               ShowMessage:    59 - time is: 08:04:6
+2016-10-12 08:04 [ INFO]               ShowMessage:    99 - messsage "Доброе утро, мир!" was created
+2016-10-12 08:04 [ INFO]                      Main:    29 - Finish running app
+2016-10-12 08:05 [ INFO]                      Main:    27 - Start running app
+2016-10-12 08:05 [DEBUG]               ShowMessage:    59 - time is: 08:05:13
+2016-10-12 08:05 [ INFO]               ShowMessage:    99 - messsage "Доброе утро, мир!" was created
+2016-10-12 08:05 [ INFO]                      Main:    29 - Finish running app
