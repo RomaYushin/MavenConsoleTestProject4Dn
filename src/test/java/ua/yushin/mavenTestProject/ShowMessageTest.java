@@ -36,7 +36,7 @@ public class ShowMessageTest {
 	 * resource bundle for english locale
 	 */
 	private ResourceBundle resourceBundle_en = ResourceBundle.getBundle("message_resources", LOCALE_EN);
-
+	
 	/**
 	 * object of class ShowMessage
 	 */
