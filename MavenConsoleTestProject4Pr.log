@@ -56,3 +56,13 @@
 2016-10-17 19:53 [ INFO]                      Main:    29 - Finish running app
 2016-10-17 19:53 [DEBUG]               ShowMessage:    81 - time is: 19:53:17
 2016-10-17 19:53 [ INFO]               ShowMessage:   121 - messsage "Good evening, World!" was created
+2016-10-17 20:02 [DEBUG]               ShowMessage:    81 - time is: 20:02:2
+2016-10-17 20:02 [ INFO]               ShowMessage:   121 - messsage "Good evening, World!" was created
+2016-10-17 20:10 [DEBUG]               ShowMessage:    81 - time is: 20:10:50
+2016-10-17 20:10 [ INFO]               ShowMessage:   121 - messsage "Good evening, World!" was created
+2016-10-17 20:10 [DEBUG]               ShowMessage:    81 - time is: 20:10:55
+2016-10-17 20:10 [ INFO]               ShowMessage:   121 - messsage "Good evening, World!" was created
+2016-10-17 20:10 [ INFO]                      Main:    27 - Start running app
+2016-10-17 20:10 [DEBUG]               ShowMessage:    81 - time is: 20:10:59
+2016-10-17 20:10 [ INFO]               ShowMessage:   121 - messsage "Good evening, World!" was created
+2016-10-17 20:10 [ INFO]                      Main:    29 - Finish running app

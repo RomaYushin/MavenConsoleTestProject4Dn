@@ -68,7 +68,7 @@ public class ShowMessage {
 		System.out.println("createMessage3: " + message3);
 
 	}
-	
+
 	/**
 	 * create message depends on time of day
 	 * 

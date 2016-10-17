@@ -85,13 +85,17 @@ public class ShowMessageTest {
 			String message = sm.createMessage3(time);
 			//System.out.println(message + " " + time.getTime());
 			if (i < 6 || i >= 23) {
-				assertTrue("Доброй ночи, мир!".equals(message));
+				//assertTrue("Доброй ночи, мир!".equals(message));
+				assertTrue("\u0414\u043E\u0431\u0440\u043E\u0439 \u043D\u043E\u0447\u0438, \u043C\u0438\u0440!".equals(message));
 			} else if (i < 9) {
-				assertTrue("Доброе утро, мир!".equals(message));
+				//assertTrue("Доброе утро, мир!".equals(message));
+				assertTrue("\u0414\u043E\u0431\u0440\u043E\u0435 \u0443\u0442\u0440\u043E, \u043C\u0438\u0440!".equals(message));
 			} else if (i < 19) {
-				assertTrue("Добрый день, мир!".equals(message));
+				//assertTrue("Добрый день, мир!".equals(message));
+				assertTrue("\u0414\u043E\u0431\u0440\u044B\u0439 \u0434\u0435\u043D\u044C, \u043C\u0438\u0440!".equals(message));
 			} else if (i < 23) {
-				assertTrue("Добрый вечер, мир!".equals(message));
+				//assertTrue("Добрый вечер, мир!".equals(message));
+				assertTrue("\u0414\u043E\u0431\u0440\u044B\u0439 \u0432\u0435\u0447\u0435\u0440, \u043C\u0438\u0440!".equals(message));
 			}
 		}
 	}
@@ -131,13 +135,17 @@ public class ShowMessageTest {
 			String message = sm.createMessage3(time);
 			//System.out.println(message + " " + time.getTime());
 			if (i < 6 || i >= 23) {
-				assertTrue("Доброй ночи, мир!".equals(message));
+				//assertTrue("Доброй ночи, мир!".equals(message));
+				assertTrue("\u0414\u043E\u0431\u0440\u043E\u0439 \u043D\u043E\u0447\u0438, \u043C\u0438\u0440!".equals(message));
 			} else if (i < 9) {
-				assertTrue("Доброе утро, мир!".equals(message));
+				//assertTrue("Доброе утро, мир!".equals(message));
+				assertTrue("\u0414\u043E\u0431\u0440\u043E\u0435 \u0443\u0442\u0440\u043E, \u043C\u0438\u0440!".equals(message));
 			} else if (i < 19) {
-				assertTrue("Добрый день, мир!".equals(message));
+				//assertTrue("Добрый день, мир!".equals(message));
+				assertTrue("\u0414\u043E\u0431\u0440\u044B\u0439 \u0434\u0435\u043D\u044C, \u043C\u0438\u0440!".equals(message));
 			} else if (i < 23) {
-				assertTrue("Добрый вечер, мир!".equals(message));
+				//assertTrue("Добрый вечер, мир!".equals(message));
+				assertTrue("\u0414\u043E\u0431\u0440\u044B\u0439 \u0432\u0435\u0447\u0435\u0440, \u043C\u0438\u0440!".equals(message));
 			}
 		}
 	}
@@ -177,13 +185,17 @@ public class ShowMessageTest {
 			String message = sm.createMessage3(time);
 			//System.out.println(message + " " + time.getTime());
 			if (i < 6 || i >= 23) {
-				assertTrue("Доброй ночи, мир!".equals(message));
+				//assertTrue("Доброй ночи, мир!".equals(message));
+				assertTrue("\u0414\u043E\u0431\u0440\u043E\u0439 \u043D\u043E\u0447\u0438, \u043C\u0438\u0440!".equals(message));
 			} else if (i < 9) {
-				assertTrue("Доброе утро, мир!".equals(message));
+				//assertTrue("Доброе утро, мир!".equals(message));
+				assertTrue("\u0414\u043E\u0431\u0440\u043E\u0435 \u0443\u0442\u0440\u043E, \u043C\u0438\u0440!".equals(message));
 			} else if (i < 19) {
-				assertTrue("Добрый день, мир!".equals(message));
+				//assertTrue("Добрый день, мир!".equals(message));
+				assertTrue("\u0414\u043E\u0431\u0440\u044B\u0439 \u0434\u0435\u043D\u044C, \u043C\u0438\u0440!".equals(message));
 			} else if (i < 23) {
-				assertTrue("Добрый вечер, мир!".equals(message));
+				//assertTrue("Добрый вечер, мир!".equals(message));
+				assertTrue("\u0414\u043E\u0431\u0440\u044B\u0439 \u0432\u0435\u0447\u0435\u0440, \u043C\u0438\u0440!".equals(message));
 			}
 		}
 	}
